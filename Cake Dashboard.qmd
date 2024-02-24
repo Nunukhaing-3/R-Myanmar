@@ -1,0 +1,75 @@
+---
+title: "Valentine's Day"
+format: dashboard
+---
+
+Today is Valentine's Day, so the Valentine's Day dashboard is set up here. 
+"Roses are red, violets are blue,
+I asked my cat to be my Valentine, it said 'Meow.'
+Guess that's a yes in the language of love! 😻❤️ #ValentinesWithMyFurryFriend" 
+
+## Row {height="25%"}
+
+```{r}
+#| component: valuebox
+list(
+  title="Valentine's Day Cake",
+  value= 2200,
+  color="red",
+  icon="cake2"
+)
+```
+
+```{r}
+library(tidyverse)
+Bakery <- read.csv("C:/Users/Dr. Nu Nu Khaing/Desktop/Quarto/Bakery.csv") # replace with your data file
+
+attach(Bakery)
+Bakery <- Bakery|>
+  dplyr::mutate_if(is.character, factor) |>
+  as.data.frame()
+
+Bakery$Daypart <- factor(Bakery$Daypart,ordered=T, labels=c("Morning","Afternoon","Evening","Night"))
+
+ggplot(Bakery,
+       aes(y=TransactionNo, fill=Daypart))+
+  geom_boxplot(color="grey2")+
+  scale_fill_brewer(palette="Pastel2")
+```
+
+```{r}
+ggplot(Bakery,
+       aes(x=Daypart, fill=Daypart))+
+  geom_dotplot(color="grey2", binwidth = 1.5, dotsize = 1,
+               stackratio = .01)+
+  scale_fill_brewer(palette="Accent")
+```
+
+## Row {height="25%"}
+### Column
+```{r}
+#| component: valuebox
+list(
+  title="Valentine's Day Flowers",
+  value= 1500,
+  color="green",
+  icon="flower3"
+)
+```
+
+![Valentine Flowers](Flowers.png)
+
+### Column
+
+
+```{r}
+attach(iris)
+library(ggplot2)
+ggplot(iris,
+       aes(x=Sepal.Length, fill=Species))+
+  geom_density(alpha=0.5)+
+  theme(legend.position="none")+
+  labs(x= "Flowers")+
+  scale_fill_brewer(palette="Dark2")
+```
+

@@ -8,7 +8,22 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - Cake Dashboard.qmd
       - About me.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - index.qmd
+          - basics-knitr.qmd
+          - basics-jupyter.qmd
+      - section: "Layout"
+        contents:
+          - layout.qmd
+          - layout-knitr.qmd
+          - layout-jupyter.qmd
 
 format:
   html:

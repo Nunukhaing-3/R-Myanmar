@@ -4,7 +4,12 @@
     "href": "index.html",
     "title": "My R page",
     "section": "",
-    "text": "This is my first creating webpage using Quarto."
+    "text": "This is my first creating webpage using Quarto.",
+    "crumbs": [
+      "Home",
+      "Basics",
+      "My R page"
+    ]
   },
   {
     "objectID": "About me.html",
