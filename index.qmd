@@ -1,5 +1,10 @@
 ---
 title: "My R page" 
+image: R.Page_cover.png
+about: 
+  template: marquee
+  image-shape: rectangle 
+  image-width: 30em 
 ---
 
 This is my first creating webpage using Quarto.

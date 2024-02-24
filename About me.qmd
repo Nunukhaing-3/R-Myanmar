@@ -1,6 +1,5 @@
 ---
 title: "About Me"
-image: R.Page_cover.png 
 about: 
   template: marquee
   image-shape: rectangle 
@@ -15,7 +14,9 @@ about:
   id: ppc 
 ---
 
--   👋 Hi,
+::: {#ppc}
+
+-   👋 Hi
 
 -   I’m Dr. Nu Nu Khaing.😊
 
@@ -25,10 +26,11 @@ about:
 
 -   🌱 I’m currently learning R programming for Data Science...
 
-
-::: {#ppc}
-I am a coffee addict. Coffee is everything for me. Are you free to catch up for coffee after work?
+-   I am a coffee addict. Coffee is everything for me. Are you free to catch up for coffee after work?
 
 ![](coffee.G3.jpg){fig-align="center"}
 
 :::
+
+
+
