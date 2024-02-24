@@ -1,24 +1,10 @@
 ---
 title: "My R page" 
-image: R.Page_cover.png 
-about: 
-  template: marquee
-  image-shape: rectangle 
-  image-width: 30em 
-  links: 
-    - text: GitHub 
-      icon: github 
-      href: https://github.com/Nunukhaing-3 
-    - text: YouTube 
-      icon: youtube 
-      href: https://www.youtube.com/\@95Zuuzuu 
-  id: ppc 
 ---
 
-::: {#ppc}
-I am a coffee addict. Coffee is everything for me. Are you free to catch up for coffee after work?
+This is my first creating webpage using Quarto.
 
-![](coffee.G3.jpg){fig-align="center"}
+```{r, echo=FALSE}
+hist(rnorm(1000), col=rainbow(7), angle=45, density=80)
+```
 
-
-:::
