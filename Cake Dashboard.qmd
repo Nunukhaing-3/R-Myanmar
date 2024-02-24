@@ -22,7 +22,7 @@ list(
 
 ```{r}
 library(tidyverse)
-Bakery <- read.csv("C:/Users/Dr. Nu Nu Khaing/Desktop/Quarto/Bakery.csv") # replace with your data file
+Bakery <- read.csv("Bakery.csv") # replace with your data file
 
 attach(Bakery)
 Bakery <- Bakery|>
