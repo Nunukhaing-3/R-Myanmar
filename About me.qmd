@@ -15,7 +15,6 @@ about:
 ---
 
 ::: {#ppc}
-
 -   👋 Hi
 
 -   I’m Dr. Nu Nu Khaing.😊
@@ -26,11 +25,7 @@ about:
 
 -   🌱 I’m currently learning R programming for Data Science...
 
--   I am a coffee addict. Coffee is everything for me. Are you free to catch up for coffee after work?
+-   I am a coffee addict. Coffee is everything for me. If you are free to catch up for coffee, join with me.☕
 
 ![](coffee.G3.jpg){fig-align="center"}
-
 :::
-
-
-
