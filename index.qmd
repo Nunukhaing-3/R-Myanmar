@@ -2,7 +2,7 @@
 title: "My R page" 
 image: R.Page_cover.png 
 about: 
-  template: trestles
+  template: marquee
   image-shape: rectangle 
   image-width: 30em 
   links: 
@@ -15,12 +15,10 @@ about:
   id: ppc 
 ---
 
-:::{#ppc}
+::: {#ppc}
+I am a coffee addict. Coffee is everything for me. Are you free to catch up for coffee after work?
 
-I am a coffee addict. Coffee is everything for me.
+![](coffee.G3.jpg){fig-align="center"}
 
-![Coffee is everything.](coffee.G3.jpg)  
-
-Are you free to catch up for coffee after work?  
 
 :::
