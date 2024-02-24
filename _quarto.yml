@@ -3,16 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Website"
+  title: "R for Data Science-Myanmar"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - About me.qmd
 
 format:
   html:
     theme: darkly
+    mainfont: arial
+    fontsize: 1.5rem
+    monofont: courier new
     css: styles.css
     toc: true
 

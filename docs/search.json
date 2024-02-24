@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Website",
+    "title": "My R page",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "GitHub\n  \n  \n    \n     YouTube\n  \n\n  \n  \nI am a coffee addict. Coffee is everything for me.\n\n\n\nCoffee is everything.\n\n\nAre you free to catch up for coffee after work?"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "About me.html",
+    "href": "About me.html",
+    "title": "About Me",
+    "section": "",
+    "text": "👋 Hi,\nI’m Dr. Nu Nu Khaing.😊\nPhD (Nagoya), Japan.\nIndependent consultant and trainer – Data Science in Education, Myanmar.\n🌱 I’m currently learning R programming for Data Science…"
   }
 ]

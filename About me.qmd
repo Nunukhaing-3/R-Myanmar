@@ -1,0 +1,13 @@
+---
+title: "About Me"
+---
+
+-   👋 Hi,
+
+-   I’m Dr. Nu Nu Khaing.😊
+
+-   PhD (Nagoya), Japan.
+
+-   Independent consultant and trainer – Data Science in Education, Myanmar.
+
+-   🌱 I’m currently learning R programming for Data Science...
