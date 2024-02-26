@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "Quarto basic.html",
+    "href": "Quarto basic.html",
+    "title": "Quarto_basic",
+    "section": "",
+    "text": "This is my car’s scatter plot. The correlation between distance and speed is 0.81."
+  },
+  {
+    "objectID": "Quarto basic.html#add-inline-code",
+    "href": "Quarto basic.html#add-inline-code",
+    "title": "Quarto_basic",
+    "section": "",
+    "text": "This is my car’s scatter plot. The correlation between distance and speed is 0.81."
+  },
+  {
+    "objectID": "Quarto basic.html#add-footnote",
+    "href": "Quarto basic.html#add-footnote",
+    "title": "Quarto_basic",
+    "section": "Add footnote",
+    "text": "Add footnote\nAdd a footnote by using [^1] within the text, and [^1]: Here is the footnote. to write out the footnote"
+  },
+  {
+    "objectID": "Quarto basic.html#child-document",
+    "href": "Quarto basic.html#child-document",
+    "title": "Quarto_basic",
+    "section": "child document",
+    "text": "child document\nLet’s automate the county tables using knitr::knit_child() knitr::knit_child() allows you to break your content into smaller, modular pieces"
+  },
+  {
+    "objectID": "Quarto basic.html#footnote",
+    "href": "Quarto basic.html#footnote",
+    "title": "Quarto_basic",
+    "section": "footnote",
+    "text": "footnote"
+  },
+  {
+    "objectID": "About me.html",
+    "href": "About me.html",
+    "title": "About Me",
+    "section": "",
+    "text": "👋 Hi\nI’m Dr. Nu Nu Khaing.😊\nPhD (Nagoya), Japan.\nIndependent consultant and trainer – Data Science in Education, Myanmar.\n🌱 I’m currently learning R programming for Data Science…\nI am a coffee addict. Coffee is everything for me. If you are free to catch up for coffee, join with me.☕\n\n\n\n\n\n\n \n    \n  \n    \n     GitHub\n  \n  \n    \n     YouTube"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My R page",
@@ -10,12 +52,5 @@
       "Basics",
       "My R page"
     ]
-  },
-  {
-    "objectID": "About me.html",
-    "href": "About me.html",
-    "title": "About Me",
-    "section": "",
-    "text": "👋 Hi\nI’m Dr. Nu Nu Khaing.😊\nPhD (Nagoya), Japan.\nIndependent consultant and trainer – Data Science in Education, Myanmar.\n🌱 I’m currently learning R programming for Data Science…\nI am a coffee addict. Coffee is everything for me. If you are free to catch up for coffee, join with me.☕\n\n\n\n\n\n\n \n    \n  \n    \n     GitHub\n  \n  \n    \n     YouTube"
   }
 ]

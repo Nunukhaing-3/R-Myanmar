@@ -1,0 +1,30 @@
+---
+title: "Quarto_basic"
+format: 
+  html: 
+    embed-resources: true
+execute: 
+  echo: false
+  error: false
+  message: false
+---
+
+## Add inline code  
+
+This is my car's scatter plot. The correlation between distance and speed is **`r round(cor(cars$speed,cars$dist),digit=2)`**.   
+
+```{r}
+plot(cars,col=rainbow(50),pch=16,cex=2)
+
+```
+
+## Add footnote
+
+Add a footnote by using [^1] within the text, and [^1]: Here is the footnote. to write out the footnote
+
+## child document  
+
+Let’s automate the county tables using knitr::knit_child()
+knitr::knit_child() allows you to break your content into smaller, modular pieces
+
+## footnote  
